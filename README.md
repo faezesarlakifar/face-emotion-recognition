@@ -42,13 +42,13 @@ The key goals of this project include:
 ## Customized Dataset 
 
 samples of the customized dataset:<br><br>
-<img src="images/sample-angry.jpg" alt="sample angry" height="200" width="200">
+<img src="images/sample-angry.jpg" alt="sample angry" height="150" width="150">
 angry
-<img src="images/sample-neutral.jpg" alt="sample neutral" height="200" width="200">
+<img src="images/sample-neutral.jpg" alt="sample neutral" height="150" width="150">
 neutral
-<img src="images/sample-happy.jpg" alt="sample happy" height="200" width="200">
+<img src="images/sample-happy.jpg" alt="sample happy" height="150" width="150">
 happy
-<img src="images/sample-sad.jpg" alt="sample sad" height="200" width="200">
+<img src="images/sample-sad.jpg" alt="sample sad" height="150" width="150">
 sad
 <br>
 <br>
@@ -58,5 +58,8 @@ sad
 Faces detected by MTCNN, which include a non-face image, were removed by the fine-tuned Inception-ResNet model, which predicted it as a non-facial image:
 <br><br>
 <img src="images/MTCNN-detected-faces.jpg" alt="MTCNN-detected-faces" >
+
+## Permissions
+For preparing the customized dataset, photos were taken in a **hospital** with the permission of the people to share, take, and use their facial photos for this project. All the individuals whose photos we have taken, have granted us permission to share and utilize them for this project.
 
 
