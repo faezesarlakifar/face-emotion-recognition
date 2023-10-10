@@ -39,6 +39,8 @@ The key goals of this project include:
 
 4. **Iranian Facial Emotion Recognition**: Train and evaluate deep learning models for facial emotion recognition, providing insights into their performance on the refined data.
 
+## Customized Dataset 
+
 samples of the customized dataset:<br><br>
 <img src="images/sample-angry.jpg" alt="sample angry" height="200" width="200">
 angry
@@ -50,6 +52,9 @@ happy
 sad
 <br>
 <br>
+
+## Face Verification
+
 Faces detected by MTCNN, which include a non-face image, were removed by the fine-tuned Inception-ResNet model, which predicted it as a non-facial image:
 <br><br>
 <img src="images/MTCNN-detected-faces.jpg" alt="MTCNN-detected-faces" >
