@@ -41,17 +41,11 @@ The key goals of this project include:
 
 ## Customized Dataset 
 
-samples of the customized dataset:<br><br>
-<img src="images/sample-angry.jpg" alt="sample angry" height="150" width="150">
-angry
-<img src="images/sample-neutral.jpg" alt="sample neutral" height="150" width="150">
-neutral
-<img src="images/sample-happy.jpg" alt="sample happy" height="150" width="150">
-happy
-<img src="images/sample-sad.jpg" alt="sample sad" height="150" width="150">
-sad
-<br>
-<br>
+samples of the customized dataset:<br>
+
+|     angry     |    neutral    |     happy     |      sad      |
+| ------------- | ------------- | ------------- | ------------- |
+| <img src="images/sample-angry.jpg" alt="sample angry" height="150" width="150">  | <img src="images/sample-neutral.jpg" alt="sample neutral" height="150" width="150">  | <img src="images/sample-happy.jpg" alt="sample happy" height="150" width="150">  | <img src="images/sample-sad.jpg" alt="sample sad" height="150" width="150">  |
 
 ## Face Verification
 
