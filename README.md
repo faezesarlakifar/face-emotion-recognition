@@ -2,14 +2,14 @@
 
 ## Introduction
 
-This project aims to explore deep learning techniques for facial emotion recognition. While nationality-specific differences are not a primary concern, the project's goal is to implement and test various deep learning methods, including self-supervised and transfer learning, to achieve good facial emotion classification and enhance understanding of deep learning through practical experience.
+This project aims to explore deep learning techniques for facial emotion recognition. While nationality-specific differences are not a primary concern, the project aims to implement and test various deep learning methods, including self-supervised and transfer learning, to achieve good facial emotion classification and enhance understanding of deep learning through practical experience.
 ## Project Overview
 
 - **Data Collection**: A large number of sample frames from videos were extracted, and the MTCNN model was used for human face detection, resulting in a dataset of human face images.
 
-- **Transfer Learning for Face Detection**: Transfer learning fine-tuned an Inception-ResNet model for accurate face detection, ensuring high-quality face images for subsequent tasks.
+- **Transfer Learning for Face Detection**: Using pre-trained model 'Inception-ResNetV2' for accurate face detection, ensuring high-quality face images for subsequent tasks.
 
-- **Self-Supervised Learning**: Self-supervised learning, utilizing pretext tasks like jigsaw puzzles and rotation, pre-trained the model on the collected images.
+- **Self-Supervised Learning**: Utilizing pretext tasks like jigsaw puzzles and rotation, pre-trained the model on the collected images.
 
 - **Customized Dataset**: Standard photos of Persian human faces were gathered, with four emotion categories (happy, sad, neutral, and angry) for each individual. This dataset contains images from just 15 individuals.
 
