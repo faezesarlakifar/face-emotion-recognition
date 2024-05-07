@@ -31,7 +31,7 @@ This project aims to explore deep learning techniques for facial emotion recogni
 
 The key goals of this project include:
 
-1. **Comprehensive Deep Learning Exploration**: Conduct a complete deep learning project from data collection to model development, gaining practical experience in data preparation, data preprocessing, and advanced deep learning techniques.
+1. **Comprehensive Deep Learning Exploration**: Conduct a complete deep learning project from data collection to model development, gaining practical experience in data preparation, preprocessing the data, and advanced deep learning techniques.
 
 2. Transfer Learning for Face Detection: Implement transfer learning to fine-tune a model for accurate face detection. The results were combined with MTCNN, and if either model predicts an image as a non-human face, that image is removed from the facial dataset.
 
