@@ -2,24 +2,23 @@
 
 ## Introduction
 
-This project aims to explore deep learning techniques for facial emotion recognition. While nationality-specific differences are not a primary concern, the project aims to implement and test various deep learning methods, including self-supervised and transfer learning, to achieve good facial emotion classification and enhance understanding of deep learning through practical experience.
+This project aims to explore deep learning techniques for facial emotion recognition. While nationality-specific differences are not a primary concern, the project aims to implement and test advanced deep learning methods, including self-supervised, to achieve good facial emotion classification and enhance my understanding of deep learning through practical experience.
+
 ## Project Overview
 
 - **Data Collection**: A large number of sample frames from videos were extracted, and the MTCNN model was used for human face detection, resulting in a dataset of human face images.
 
-- **Transfer Learning for Face Detection**: Using pre-trained model 'Inception-ResNetV2' for accurate face detection, ensuring high-quality face images for subsequent tasks.
-
-- **Self-Supervised Learning**: Utilizing pretext tasks like jigsaw puzzles and rotation, pre-trained the model on the collected images.
+- **Self-Supervised Pretex Task**: Utilizing pretext tasks like jigsaw puzzles and rotation, I pre-trained the model on the collected images.
 
 - **Customized Dataset**: Standard photos of Persian human faces were gathered, with four emotion categories (happy, sad, neutral, and angry) for each individual. This dataset contains images from just 15 individuals.
 
-- **Fine-tuning**: The pre-trained model was fine-tuned on the customized dataset to improve its performance in Persian human face emotion recognition.
+- **Self-Supervised Learning on Customized Data**: The pre-trained model was fine-tuned on the customized dataset to learn Persian human face emotion recognition.
 
 ## Project Workflow
 
 1. **Face Detection**: The MTCNN model was used for initial face detection. Subsequently, an Inception-ResNet model was fine-tuned for accurate face detection, ensuring high-quality face images.
 
-2. **Data Refinement**: Non-human faces were filtered out by comparing results from both MTCNN and the fine-tuned face detection model, ensuring a dataset of genuine human faces.
+2. **Data Refinement**: Non-human faces were filtered out by comparing results from both MTCNN and a fine-tuned face detection model, ensuring a dataset of genuine human faces.
 
 3. **Self-Supervised Learning**: Self-supervised learning techniques, including two pretext tasks, jigsaw puzzles, and rotation, were implemented to pre-train the model on the refined dataset.
 
