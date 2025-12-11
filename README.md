@@ -8,7 +8,7 @@ This project aims to explore deep learning techniques for facial emotion recogni
 
 - **Data Collection**: A large number of sample frames from videos were extracted, and the MTCNN model was used for human face detection, resulting in a dataset of human face images.
 
-- **Self-Supervised Pretex Task**: Utilizing pretext tasks like jigsaw puzzles and rotation, I pre-trained the model on the collected images.
+- **Self-Supervised Pretex Tasks**: Utilizing pretext tasks like jigsaw puzzles and rotation, I pre-trained the model on the collected images.
 
 - **Customized Dataset**: Standard photos of Persian human faces were gathered, with four emotion categories (happy, sad, neutral, and angry) for each individual. This dataset contains images from just 15 individuals.
 
